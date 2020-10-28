@@ -71,7 +71,6 @@ args = my_parser.parse_args()
 
 # convert namespace to dictionary
 args_dist = vars(args)
-# varst = vars(args)["payment"]
 
 # test number of arguments.   change dictionary to list a count None values
 args_value_list = list(args_dist.values())
