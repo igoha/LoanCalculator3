@@ -1,2 +1,2 @@
-# LoanCalculator3
-Loan calculator pyCharm3
+# Loan Calculator
+Loan calculator pyCharm
