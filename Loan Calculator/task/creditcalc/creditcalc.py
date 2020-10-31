@@ -23,6 +23,7 @@ def foo_montly_payment(principal, interest, payment):
 
 
 def foo_anuity_paiment(principal, periods, interest):
+    # calculate anuity
     if args.principal < 0 or args.periods < 0 or args.interest < 0:  # test negative arguments
         foo_incorect_parameter()
     i = interest / (12 * 100)
