@@ -3,6 +3,7 @@ import argparse
 
 
 def foo_montly_payment(principal, interest, payment):
+    # calculate monts
     if args.principal < 0 or args.payment < 0 or args.interest < 0:  # test negative arguments
         foo_incorect_parameter()
     i = interest / (12 * 100)
